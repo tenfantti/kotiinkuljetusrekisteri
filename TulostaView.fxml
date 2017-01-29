@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="490.0" prefWidth="676.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxKotiinkuljetus.TulostusController">
+   <center>
+      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextArea prefHeight="450.0" prefWidth="214.0" text="ASIAKKAAN TIEDOT&#9;|&#10;Etunimi  : &#9;&#9;&#9;&#9;|&#10;Sukunimi :&#9;&#9;&#9;|&#10;Puhelinnumero :&#9;&#9;|&#10;Osoite :&#9;&#9;&#9;&#9;|&#10;Asuinalue:&#9;&#9;&#9;|&#10;&#9;&#9;&#9;&#9;&#9;|&#10;================|&#10;KULJETUKSEN TIEDOT&#9;|&#10;&#9;&#9;&#9;&#9;&#9;|&#10;Aika :  &#9;&#9;&#9;&#9;|&#10;Maksutapa :&#9;&#9;&#9;|" />
+            <TextArea fx:id="tulostusAlue" layoutX="214.0" layoutY="-2.0" prefHeight="449.0" prefWidth="461.0" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>
